@@ -348,7 +348,7 @@ label.frame.size.width;\
 - (void)xb_setLinkUrlStr:(NSString *)urlStr linkStrcolor:(UIColor *)linkStrcolor range:(NSRange)range
 {
     [self xb_setUnderlineStyle:NSUnderlineStyleSingle range:range];
-    [self xb_setUnderlineColor:linkStrcolor range:range];
+//    [self xb_setUnderlineColor:linkStrcolor range:range];
     [self xb_setColor:linkStrcolor range:range];
     [self xb_setLinkUrlStr:urlStr range:range];
 }
